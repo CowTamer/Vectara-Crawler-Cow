@@ -1,7 +1,7 @@
 
 vectara:
-  corpus_id: ${VECTARA_CORPUS_ID}
-  customer_id: ${VECTARA_CUSTOMER_ID}
+  corpus_id: 8
+  customer_id: 566695243
   reindex: true
 
 crawling:
