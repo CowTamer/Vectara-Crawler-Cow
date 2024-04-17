@@ -1,0 +1,16 @@
+
+vectara:
+  corpus_id: ${VECTARA_CORPUS_ID}
+  customer_id: ${VECTARA_CUSTOMER_ID}
+  reindex: true
+
+crawling:
+  crawler_type: website
+
+website_crawler:
+  urls: ["handbook.gitlab.com/handbook"]
+  delay: 1
+  pages_source: sitemap
+  pos_regex: [".*"]
+  extraction: playwright
+  ray_workers: 0
